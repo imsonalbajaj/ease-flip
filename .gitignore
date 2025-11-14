@@ -1,0 +1,69 @@
+###############
+# Xcode
+###############
+build/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+*.xcsettings
+*.pbxuser
+*.mode1v3
+*.mode2v3
+
+###############
+# Swift Package Manager
+###############
+.build/
+.swiftpm/
+Packages/
+
+# ❗️Important: Keep this in Git
+# Package.resolved locks dependency versions
+!Package.resolved
+
+###############
+# SwiftData local store
+###############
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+###############
+# macOS system files
+###############
+.DS_Store
+
+###############
+# Logs
+###############
+*.log
+
+###############
+# iOS Artifacts
+###############
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+###############
+# Playgrounds
+###############
+timeline.xctimeline
+playground.xcworkspace
+
+###############
+# CocoaPods (if not using Pods)
+###############
+Pods/
+Podfile.lock
+
+###############
+# Fastlane
+###############
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
